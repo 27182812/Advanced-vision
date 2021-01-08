@@ -1,16 +1,16 @@
 # Advanced-vision
 注：本课程报告主要来源于本科参与的大创项目和本科实验室项目
-链接为：
-代码中的./调过参数的py-faster-rcnn/py-faster-rcnn/data/faster_rcnn_models/下的模型因为超过100M了无法上传，请自行下载
+
+代码中的./调过参数的py-faster-rcnn/py-faster-rcnn/data/faster_rcnn_models/下的模型较大未上传，请自行下载
 或者参考完整版的百度网盘：
 https://pan.baidu.com/s/1uRe7tg_S5IL4AzA3lp9Ilw 
 提取码：nicm 
 复制这段内容后打开百度网盘手机App，操作更方便哦
 
-### 系统硬件环境
+# 系统硬件环境
 1）服务器：酷睿i7-6700HQ、NVIDIA GTX 1070 8G、内存8G，硬盘60G以上配置的高性能计算机。
 2）操作系统：Ubuntu Linux 16.04 LTS 。
-### 系统软件环境
+# 系统软件环境
 1）操作系统：Ubuntu Linux 16.04 LTS；
 2）语言环境：python2.7、G++5.4.0；
 3）深度学习框架：Caffe；
@@ -26,7 +26,7 @@ https://pan.baidu.com/s/1uRe7tg_S5IL4AzA3lp9Ilw
 7）faster-rcnn安装
 8）labelImg-master安装
 
-### faster-rcnn配置
+# faster-rcnn配置
 下载ImageNet数据集下预训练得到的模型参数（用来初始化）解压，然后将该文件放在py-faster-rcnn\data下
 （1）修改训练相关参数
 修改训练文件stage1_fast_rcnn_solver30k40k.pt等4个solver文件，修改base_lr: 0.0001，使训练第一阶段学习率减小至0.0001。
